@@ -29,6 +29,13 @@ class MainActivity : AppCompatActivity() {
             val fabMapIntent = Intent (applicationContext, MapActivity::class.java)
             startActivity(fabMapIntent)
         }
+
+        val data = arrayOf("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+
+        val reminderAdapter = ReminderAdapter(applicationContext, data)
+        list.adapter = reminderAdapter
+
+
     }
     /*
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
