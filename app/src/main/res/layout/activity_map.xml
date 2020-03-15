@@ -30,7 +30,7 @@
             android:layout_weight="1"
             android:layout_toRightOf="@+id/searchAutoComplete"
             app:srcCompat="@drawable/ic_search_24px"
-            tools:ignore="VectorDrawableCompat" />
+ />
 
     </LinearLayout>
 
